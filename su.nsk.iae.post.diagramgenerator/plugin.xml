@@ -1,0 +1,8 @@
+<plugin>
+	<extension
+		name="post-diagram-generator"
+		point="su.nsk.iae.post.post_extension">
+		<client
+			class="su.nsk.iae.post.diagramgenerator.MainGenerator"></client>
+	</extension>
+</plugin>

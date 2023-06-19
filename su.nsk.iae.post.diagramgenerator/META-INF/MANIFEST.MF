@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Diagramgenerator
+Bundle-SymbolicName: su.nsk.iae.post.diagramgenerator; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Institute of Automation and Electrometry SB RAS
+Automatic-Module-Name: su.nsk.iae.post.diagramgenerator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: su.nsk.iae.post.diagramgenerator
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ su.nsk.iae.post
